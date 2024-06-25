@@ -1,0 +1,45 @@
+{
+    "posts": [
+      { "id": 1, "title": "Hello World", "author": "John Doe" },
+      { "id": 2, "title": "JSON Server is awesome", "author": "Jane Doe" }
+    ],
+    "comments": [
+      { "id": 1, "postId": 1, "body": "Great post!" },
+      { "id": 2, "postId": 1, "body": "Thanks for the info." }
+    ],
+    "profile": { "name": "John Doe" }
+  }
+  {
+  "id": 7843,
+  "name": "Jane Doe",
+  "email": "jane.doe@example.com",
+  "address": {
+    "street": "123 Maple Street",
+    "city": "Springfield",
+    "state": "IL",
+    "postalCode": "62704"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "555-1234"
+    },
+    {
+      "type": "work",
+      "number": "555-5678"
+    }
+  ],
+  "isActive": true,
+  "accountBalance": 1050.75,
+  "createdDate": "2023-06-24T14:48:00Z",
+  "preferences": {
+    "newsletter": true,
+    "notifications": false,
+    "theme": "dark"
+  },
+  "tags": [
+    "premium",
+    "verified",
+    "newsletter"
+  ]
+}

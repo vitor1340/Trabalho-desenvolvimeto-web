@@ -1,0 +1,43 @@
+
+    /* Estilo personalizado para os cards */
+    nav {
+        background-color: #ff0000;
+    }
+
+    .card {
+       height: 100%; /* Altura fixa para os cards */
+   }
+    .card-img-top {
+        height: 200px;
+        object-fit: cover; /* A imagem será dimensionada para preencher o espaço mantendo a proporção */
+    }
+
+    /* Estilos para a classe de menu personalizada */
+    .custom-menu {
+        color: #fff; /* Cor do texto branco */
+        background-color: #00bd16; /* Cor de fundo verde escuro */
+    }
+    .author-info {
+        display: block;
+    }
+    .Creditos {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 25px;
+
+    }
+    .Sobre {
+        width: 50%;
+        margin-left: 70px;
+        margin-top: 15px;
+        text-align: justify;
+
+    }
+    .Autoria {
+        width: 35%;
+        margin-right: 30px;
+        margin-top: 15px;
+    }
+         
+   
+    
